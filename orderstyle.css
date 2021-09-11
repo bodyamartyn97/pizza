@@ -1,0 +1,48 @@
+
+fieldset .section{
+	flex: 1 1 50%;
+	margin: 10px auto;
+}
+
+form{
+	display: flex;
+
+}
+fieldset{
+	width: 60%;
+	border-color: #0CA199; 
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px auto;
+	color: black;	
+}
+
+label{
+	font-size: 20px;
+	font-family: 'Homemade Apple', cursive;
+	
+}
+select{
+	width:250px;
+	margin-bottom: 30px;
+}
+
+ input:hover{
+	cursor: pointer;
+}
+button{
+	margin-top: 10px;
+	background-color: #0CA199;
+	border-radius: 7px;
+	width: 90px;
+	height: 30px;
+	font-family: 'Nanum Pen Script', cursive; 
+	font-size: 20px;
+}
+button:hover{
+	background-color: #1BC2BA;
+	cursor: pointer;
+}
+.text:hover{
+	cursor: text;
+}
